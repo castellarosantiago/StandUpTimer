@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="sup.css">
+</head>
+<body>
+  <label for="work-minutes">Enter the number of minutes for the work time:</label><br>
+  <input type="number" id="work-minutes"><br>
+  <label for="break-minutes">Enter the number of minutes for the break time:</label><br>
+  <input type="number" id="break-minutes"><br>
+  <button onclick="startTimer()">Start Timer</button>
+  <button onclick="pause()">Pause</button>
+  <button onclick="resume()">Resume</button>
+  <button onclick="reset()">Reset</button>
+  <br><br>
+  <div id="time">05:00</div>
+  <script src="sup.js"></script>
+</body>
+</html>
