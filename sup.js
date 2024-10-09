@@ -114,7 +114,7 @@ function playBreakSound() {
 }
 
 function playWorkSound() {
-    const audio = new Audio('sounds/back-to-work-bak-to-work.mp3');
+    const audio = new Audio('sounds/back-to-work-back-to-work.mp3');
     audio.play();
 }
 
